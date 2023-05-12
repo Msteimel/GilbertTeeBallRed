@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-col">
           <h3 className="text-xl">Week 1 </h3>
           <div>Monday May 15th, 6:00pm - 7:00pm, field 5</div>
-          <div>Wednesday May 18th, 4:00pm - 5:00pm, field 5</div>
+          <div>Wednseday May 18th, 4:00pm - 5:00pm, field 5</div>
         </div>
 
         <div className="flex flex-col mt-6">
