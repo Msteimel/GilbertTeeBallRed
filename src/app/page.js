@@ -8,7 +8,7 @@ export default function Home() {
       </div>
 
       <h2 className="text-3xl mt-12">Practice Schedule</h2>
-      <div className="flex gap-16">
+      <div className="flex flex-wrap gap-16">
         <div className="flex flex-col">
           <h3 className="text-xl">Week 1 </h3>
           <div>Monday May 15th, 6:00pm - 7:00pm, field 5</div>
@@ -26,7 +26,7 @@ export default function Home() {
         </div>
       </div>
       <h2 className="text-3xl mt-12">Games</h2>
-      <div className="flex gap-16">
+      <div className="flex flex-wrap gap-16">
         <div className="flex flex-col mt-6">
           <h3 className="text-xl">Week 1 </h3>
           <div>Monday Jun 5th, 5:30 - 6:30, field 3</div>
