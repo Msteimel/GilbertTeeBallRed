@@ -1,13 +1,13 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/">
-        <h1 className="text-4xl"> Gilbert Iowa Tee Ball Red Team Site</h1>
+        <h1 className="text-4xl">Gilbert Iowa Tee Ball Blue Team</h1>
       </div>
 
-      <h2 className="text-3xl mt-12">Practice Schedule</h2>
+      {/* <h2 className="text-3xl mt-12">Pract ice Schedule</h2>
       <div className="flex flex-wrap gap-16">
         <div className="flex flex-col">
           <h3 className="text-xl">Week 1 </h3>
@@ -24,27 +24,27 @@ export default function Home() {
           <h3 className="text-lg">Week 3</h3>
           <div>Tuesday May 30th, 6:00pm - 7:00pm, field 4</div>
         </div>
-      </div>
-      <h2 className="text-3xl mt-12">Games</h2>
+      </div> */}
+      <h2 className="text-3xl mt-12">Games Schedule</h2>
       <div className="flex flex-wrap gap-16">
         <div className="flex flex-col mt-6">
           <h3 className="text-xl">Week 1 </h3>
-          <div>Monday Jun 5th, 5:30 - 6:30, field 3</div>
-          <div>Wednesday Jun 7th, 5:30 - 6:30, field 5</div>
+          <div>Monday Jun 3rd, 6:30, field 3</div>
+          <div>Wednesday Jun 5th, 5:30, field 5</div>
         </div>
         <div className="flex flex-col mt-6">
           <h3 className="text-xl">Week 2 </h3>
-          <div>Monday Jun 12th, 5:30 - 6:30, field 5</div>
-          <div>Wednesday Jun 14th, 6:30 - 7:30, field 5</div>
+          <div>Monday Jun 10th, Bye</div>
+          <div>Wednesday Jun 12th, 6:30, field 5</div>
         </div>
         <div className="flex flex-col mt-6">
           <h3 className="text-xl">Week 3</h3>
-          <div>Monday Jun 19th, 5:30 - 6:30, field 3</div>
-          <div>Wednesday Jun 21th, 5:30 - 6:30, field 5</div>
+          <div>Monday Jun 17th, 5:30, field 3</div>
+          <div>Wednesday Jun 19th, 5:30, field 5</div>
         </div>
         <div className="flex flex-col mt-6">
           <h3 className="text-xl">Week 4</h3>
-          <div>Wednesday Jun 28th, 6:30 - 7:30, field 3</div>
+          <div>Wednesday Jun 24th, 5:30, field 3</div>
         </div>
       </div>
       <h2 className="text-3xl mt-12">Resource Link</h2>
@@ -56,6 +56,3 @@ export default function Home() {
     </main>
   );
 }
-
-// June 5th 	June 7th 		June 12th 	June 14th		June 19th 	June 21st		June 28th
-// Team Red		Field 3 - 5:30pm	Field 5 - 5:30pm		Field 5 - 5:30pm	Field 5 - 6:30pm		Field 3 - 5:30pm	Field 5 - 5:30pm		Field 3 - 6:30pm
