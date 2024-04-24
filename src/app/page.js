@@ -6,8 +6,9 @@ export default function Home() {
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/">
         <h1 className="text-4xl">Gilbert Iowa Tee Ball Blue Team</h1>
       </div>
+      <h2 className="text-3xl mt-12">Team</h2>
 
-      {/* <h2 className="text-3xl mt-12">Pract ice Schedule</h2>
+      {/* <h2 className="text-3xl mt-12">Practice Schedule</h2>
       <div className="flex flex-wrap gap-16">
         <div className="flex flex-col">
           <h3 className="text-xl">Week 1 </h3>
